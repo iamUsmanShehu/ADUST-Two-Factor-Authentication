@@ -24,8 +24,8 @@ if ($result->num_rows == 1) {
         $_SESSION['otp'] = ['otp' => $otp];
 
 
-          $email = "iamusmanshehu@gmail.com";
-          $password = "Chemistry@090";
+          $email = "API_EMAIL";
+          $password = "API-PASSWORD";
           $message = "Your one-time password (OTP) is: " . $otp;
           $sender_name = "ADUSTECH";
           $recipients = $_SESSION['phone'];
