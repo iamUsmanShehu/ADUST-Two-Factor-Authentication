@@ -1,7 +1,7 @@
 <?php
 
-  $email = "iamusmanshehu@gmail.com";
-  $password = "Chemistry@090";
+  $email = "API_EMAIL";
+  $password = "API-PASSWORD";
   $message = "To Test OTP API";
   $sender_name = "ADUSTECH";
   $recipients = "09160163113";
